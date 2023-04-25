@@ -58,7 +58,6 @@ def test_daily_min(test, expected):
 @pytest.mark.parametrize(
     "test, expected, expect_raises",
     [
-        ...
         (
             'hello',
             None,
